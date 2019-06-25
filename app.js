@@ -86,6 +86,8 @@ mongoose.Promise = global.Promise;
 mongoose
   .connect(keys.mongoURI, {
     //    useMongoClient: true
+    useCreateIndex: true,
+    useNewUrlParser: true
   })
   .then(() => console.log("MongoDB Connected"))
   .catch(err => console.log(err));
