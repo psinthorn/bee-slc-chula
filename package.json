@@ -31,11 +31,8 @@
     "pdfmake": "^0.1.38",
     "request": "^2.87.0"
   },
-  "devDependencies": {
-    "mocha": "^5.2.0"
-  },
+  "devDependencies": {},
   "scripts": {
-    "test": "mocha",
     "dev": "nodemon index.js",
     "start": "node index.js"
   },
