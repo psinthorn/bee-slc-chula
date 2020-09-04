@@ -32,7 +32,7 @@
     "request": "^2.87.0"
   },
   "devDependencies": {
-    "handlebars": ">=4.0.14"
+    "handlebars": ">=4.4.5"
   },
   "scripts": {
     "dev": "nodemon index.js",
